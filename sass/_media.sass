@@ -1,0 +1,527 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 15px
+        .menu_link
+            font-size: 13px
+    .promo
+        .promo_header
+            font-size: 50px
+    .info
+        .info_txt
+            width: 320px
+        .info_txt1
+            width: 320px
+        
+    .mobile
+        .mobile_item_1
+            width: 315px
+        .mobile_item_2
+            width: 315px
+        .mobile_item_3
+            width: 315px
+        .mobile_item_4
+            width: 315px
+        .mobile_item_5
+            width: 315px
+        .mobile_item_6
+            width: 315px
+.footer
+    padding: 14px 13px 39px 0px
+    .footer_wrapper_main_text
+        padding: 0 15px
+    .footer_wrapper_next_text
+        padding: 0
+@media (max-width: 991px)
+    .info 
+        br 
+            display: contents
+    .menu
+        .menu_item
+            padding-right: 9px
+        .menu_link
+            font-size: 10px
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_official
+            font-size: 12px
+        .subheader_number
+            font-size: 18px
+        .subheader_btn
+            width: 100%
+            height: 44px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+    .info
+        height: 1500px
+        .info_header
+            font-size: 30px
+        .info_img
+            flex-direction: column
+            align-items: center
+            margin-left: 115px
+            margin-top: 30px
+        // .block_1
+        //     text-align: center
+        // .block_2
+        //     text-align: center
+        // .block_3
+        //     text-align: center
+        // .block_4
+        //     text-align: center
+        // .block_5
+        //     text-align: center
+        // .block_6
+        //     text-align: center
+        // .block_7
+        //     text-align: center
+        // .block_8
+        //     text-align: center
+        .info_txt
+            display: flex
+            justify-content: center
+            flex-direction: column
+            width: 330px
+            margin-left: 0
+            padding-top: 60px
+            // height: 0
+        .info_txt1
+            display: flex
+            justify-content: center
+            flex-direction: column
+            width: 330px
+            margin-left: 40px
+            padding-top: 60px
+            // height: 0
+    .mobile
+        .mobile_item_1
+            width: 235px
+        .mobile_item_2
+            width: 235px
+        .mobile_item_3
+            width: 235px
+        .mobile_item_4
+            width: 235px
+        .mobile_item_5
+            width: 235px
+        .mobile_item_6
+            width: 235px
+        .mobile_item_subtitle
+            font-size: 22px
+    .uber
+        padding-bottom: 69px
+        .uber_skills
+            margin-top: 0px
+        .uber_subtitle
+            margin-left: 35px
+        .uber_img
+            margin: 0
+            height: 400px
+    .footer
+        padding-left:0
+        .footer_wrapper_social
+            margin-top: 65px
+            margin-left: 15px 
+        .footer_wrapper_main_text
+            display: flex
+            justify-content: center
+            flex-direction: column
+        .footer_wrapper_next_text
+            display: flex
+            justify-content: center
+            flex-direction: column
+        .footer_wrapper>div
+            width: 23%
+        .footer_wrapper>div:nth-child(3)
+            padding-right: 30px
+
+@media (max-width: 767px)
+    nav
+        position: fixed
+        width: 100%
+        height: 53px
+        // background-color: #212121;
+        // z-index: 5;
+    .menu
+        position: fixed
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        top: 0
+        left:-50%
+        width: 50%
+        height: 200vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 7px 0
+        .menu_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 22px
+        transform: translateY(-50%)
+        height: 12px
+        width: 26px
+        span
+           display: block
+           height: 2px
+           width: 100% 
+           background-color: #fff
+           margin-bottom: 2px
+           transition: 0.5 all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        .subheader_number
+            display: block
+            margin-top: 10px
+            color: #FFF
+            text-align: center
+            font-size: 15px
+            font-style: normal
+            font-weight: 400
+            text-transform: uppercase
+        .subheader_btn
+            display: block
+            width: 200px
+            height: 46px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        .promo_header
+            line-height: 45px
+        .promo_btn
+            margin-top: 73px
+    .info
+        height: 2800px
+        .info_header
+            font-size: 30px
+        .info_img
+            flex-direction: column
+            align-items: center
+            margin-left: 220px
+            margin-top: 30px
+        .info_txt
+            display: flex
+            justify-content: center
+            flex-direction: column
+            width: 330px
+            margin-left: 100px
+            padding-top: 60px
+            // height: 0
+        .info_txt1
+            display: flex
+            justify-content: center
+            flex-direction: column
+            width: 330px
+            margin-left: 100px
+            padding-top: 60px
+            // height: 0
+    .mobile
+        .mobile_header
+            color: #222
+            text-align: center
+            font-size: 26px
+            font-style: normal
+            font-weight: 700
+            line-height: 36px
+            text-transform: uppercase
+        .subtitle
+            color: #222
+            text-align: center
+            font-size: 15px
+            font-style: normal
+            font-weight: 400
+            line-height: 21px
+        .mobile_item_1
+            width: 315px
+            margin-left: 100px
+        .mobile_item_2
+            width: 315px
+            margin-left: 100px
+        .mobile_item_3
+            width: 315px
+            margin-left: 100px
+        .mobile_item_4
+            width: 315px
+            margin-left: 100px
+        .mobile_item_5
+            width: 315px
+            margin-left: 100px
+        .mobile_item_6
+            width: 315px
+            margin-left: 100px
+    .uber
+        .uber_header
+            font-size: 30px
+        .uber_subtitle
+            font-size: 15px
+            width: 450px
+        .uber_img
+            margin: 0
+            height: 335px
+        .uber_descr
+            margin-top: 90px
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .menu_active
+        width: 85%
+        height: 100vh
+    .menu_item
+        width: 100%
+        text-align: center
+        padding: 5px 0
+    .menu_link
+        display: block
+    .subheader
+        height: 62px
+        top: 30px
+        .subheader_official
+            display: none
+        .subheader_logo
+            margin-top: 21px
+        .subheader_number
+            margin-top: 12px
+            text-align: center
+            font-size: 12px
+            font-style: normal
+            font-weight: 400
+            // line-height: 68px
+            text-transform: uppercase
+        .subheader_btn
+            margin-top: 8px
+            width: 110px
+            height: 22px
+            font-size: 10px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+    .promo
+        min-height: 472px
+        // padding: 135px 0 34px 0
+        .promo_header
+            text-align: center
+            font-size: 30px
+            font-style: normal
+            font-weight: 900
+            line-height: normal
+            text-transform: uppercase
+        .promo_descr
+            display: none
+        .promo_subheader
+            margin-top: 34px
+            font-size: 20px
+            line-height: normal
+            // padding: 0 10px
+        .promo_btn
+            margin: 73px auto 34px auto
+            width: 210px
+            height: 50px
+            font-size: 16px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+    .info
+        height: 2350px
+        .info_skills
+            margin-left: 95px
+            margin-top: 23px
+        .info_header
+            margin-top: 18px
+            margin-bottom: 0
+            font-size: 15px
+            font-weight: 700
+            line-height: 16px
+        .info_img
+            margin-left: 95px
+            margin-top: 24px
+            width: 100px
+            height: 100px
+        .info_txt
+            width: 100%
+            padding-top: 64px
+            margin-bottom: 30px
+            font-size: 15px
+            line-height: 21px
+            margin-left: 0
+            span
+                font-size: 16px
+                line-height: 21px
+        .info_txt1
+            width: 100%
+            padding-top: 24px
+            margin-bottom: 0
+            font-size: 15px
+            line-height: 21px
+            margin-left: 0
+            span
+                font-size: 16px
+                line-height: 21px
+        .item
+            // width: 115px
+            // height: 115px
+    .mobile
+        padding: 28px 0 43px 0
+        .mobile_skills
+            margin-left: 90px
+        .mobile_header
+            margin-top: 16px
+            font-size: 16px
+            line-height: 16px
+        .subtitle
+            margin-top: 9px
+            font-size: 14px
+            line-height: 21px
+        .mobile_item 
+            width: 290px
+            height: 254px
+            margin-left: 0
+            .mobile_item_subtitle
+                font-size: 18px
+                line-height: 31px
+    .uber
+        min-height: 200px
+        padding: 26px 0 31px 0
+        background: none
+        .black
+            // height: 393px
+        .uber_skills
+            margin-left: 75px
+        .uber_header
+            display: none
+        .uber_subtitle
+            display: none
+        .uber_img
+            margin-top: 36px
+            width: 300px
+            height: 190px
+        .uber_descr
+            margin-top: 23px
+            color: #FFF
+            text-align: center
+            font-size: 17px
+            font-style: normal
+            font-weight: 300
+            line-height: 24px
+    .require
+        padding: 124px 0 30px 0
+        .require_skills
+            margin-left: 85px
+        .require_header
+            margin-top: 16px
+            margin-bottom: 0
+            font-size: 16px
+            line-height: 16px
+        .require_block
+            margin: 30px 0 0 0
+        .require_title
+            font-size: 16px
+            line-height: 24px
+        .require_list
+            margin-top: 5px
+            padding-left: 30px
+            li
+                font-size: 14px
+                line-height: normal
+                margin-bottom: 5px
+        .require_descr
+            font-size: 14px
+            line-height: normal
+    .world
+        padding-top: 26px
+        min-height: 360px
+        .world_header
+            margin-top: 38px
+            font-size: 16px
+            line-height: 16px
+        .world_subtitle
+            padding-top: 11px
+            font-size: 14px
+            line-height: 21px
+        .world_descr
+            width: 222px
+            margin-top: 210px
+            font-size: 15px
+            line-height: 15px
+    .footer
+        height: 255px
+        padding-left:0
+        padding-bottom: 30px
+        position: relative
+        .footer_line
+            width: 255px
+            height: 6px
+        .footer_wrapper_social
+            margin-top: 117px
+            position: absolute
+            left: 55px
+        .footer_wrapper_app
+            margin-top: 171px
+            position: absolute
+        .footer_wrapper_main_text
+            width: 300px
+            margin-top: 21px
+            display: block
+            position: absolute
+            left: 0
+            font-size: 14px
+            line-height: 14px
+            // justify-content: center
+            // flex-direction: column
+        .footer_wrapper_next_text
+            display: block
+            margin-top: 45px
+            flex-direction: row
+            position: absolute
+            left: 0
+            width: 249px
+            height: 34px
+            font-size: 11px
+            line-height: 11px
+
+            // display: flex 
+            // justify-content: space-between
+            // padding: 0 0px
+            // padding-right: 550px
+            // text-align: center
+            .footer_wrapper_next_text>a:nth-child(1)
+                margin-right: 78px
+
+        // .footer_wrapper>div
+        //     width: 23%
+        .footer_wrapper>div:nth-child(3)
+            padding-right: 0px
+        .footer_wrapper_last_text
+            margin-top: 89px
+            
+
+
+        
+
+
+                    
